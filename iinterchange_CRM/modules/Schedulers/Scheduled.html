@@ -1,0 +1,64 @@
+<!--
+/*********************************************************************************
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ *
+
+ 
+ 
+
+ 
+ *
+ 
+ 
+ 
+ 
+ ********************************************************************************/
+
+/*********************************************************************************
+ * Description:
+ * Created On: Sep 28, 2005
+ * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
+ * All Rights Reserved.
+ * Contributor(s): Chris Nojima
+ ********************************************************************************/
+-->
+
+<!-- BEGIN: main -->
+<table cellpadding="0" cellspacing="{GRIDLINE}" width="100%" border="0" class="list view">
+<!-- BEGIN: list_nav_row -->
+{PAGINATION}
+<!-- END: list_nav_row -->
+	<tr height="20">
+		<td scope="col" width="30%" ><slot><a href="{ORDER_BY}job_id" class="listViewThLinkS1">{MOD.LBL_LIST_NAME}{arrow_start}{name_arrow}{arrow_end}</a></slot></td>
+		<td scope="col" width="35%" ><slot><a href="{ORDER_BY}execute_time" class="listViewThLinkS1">{MOD.LBL_LIST_EXECUTE_TIME}{arrow_start}{execute_time_arrow}{arrow_end}</a></slot></td>
+		<td scope="col" width="35%" ><slot><a href="{ORDER_BY}job_name" class="listViewThLinkS1">{MOD.LBL_JOB}{arrow_start}{job_arrow}{arrow_end}</a></slot></td>
+		<td scope="col" width="5%" ><slot>{MOD.LBL_LIST_REMOVE}</slot></td>
+	  </tr>
+
+<!-- BEGIN: row -->
+<tr height="20" class="{ROW_COLOR}S1">
+	<td scope='row' valign=TOP>
+		<slot><a href="{URL_PREFIX}index.php?action=DetailView&module=Schedulers&record={JOB.JOB_ID}" >{JOB.JOB_NAME}</a></slot></td>
+	<td valign=TOP>
+		<slot>{JOB.EXECUTE_TIME}</slot></td>
+	<td valign=TOP>
+		<slot>{JOB.JOB}</slot></td>
+	<td valign=TOP>
+		<slot><a class="listViewTdToolsS1" onclick="return confirm('{MOD.NTC_DELETE_CONFIRMATION}')" href="{URL_PREFIX}index.php?action=DeleteScheduled&module=Schedulers&record={JOB.ID}&return_module=Schedulers&return_action=Scheduled&return_id=" >{REMOVE_INLINE_PNG}</a>&nbsp;<a class="listViewTdToolsS1" onclick="return confirm('{MOD.NTC_DELETE_CONFIRMATION}')" href="{URL_PREFIX}index.php?action=DeleteScheduled&module=Schedulers&record={JOB.ID}&return_module=Schedulers&return_action=Scheduled&return_id=">{APP.LNK_DELETE}</a></slot></td>
+</tr>
+<!-- END: row -->
+{PAGINATION}
+</table>
+<!-- END: main -->

@@ -1,0 +1,33 @@
+/*********************************************************************************
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ *
+
+ 
+ 
+
+ 
+ *
+ 
+ 
+ 
+ 
+ ********************************************************************************/
+
+#header, #mass_update_table, #massupdate_form, #massupdate_header, #leftHandle, .subpanelTablist {
+    display: none;
+}
+.listViewPaginationTdS1, .listViewButtons, .search_form , .tablist, .utilsLink, .button, .tabForm{
+    display: none;
+}
