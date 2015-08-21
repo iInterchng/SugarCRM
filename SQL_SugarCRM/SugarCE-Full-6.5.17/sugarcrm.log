@@ -1,0 +1,10 @@
+08/14/14 10:28:55 [524][-none-][FATAL] Could not connect to server ICPU0093 as sa.
+08/14/14 10:28:55 [524][-none-][FATAL] Could not connect to server ICPU0093 as sa.
+08/14/14 10:29:21 [524][-none-][FATAL] Could not connect to server localhost as sa.
+08/14/14 10:29:21 [524][-none-][FATAL] Could not connect to server localhost as sa.
+08/14/14 10:41:14 [6904][-none-][FATAL] Could not connect to server iic83 as sa.
+08/14/14 10:48:00 [6904][-none-][FATAL] Could not connect to server iic83 as sa.
+08/14/14 13:42:35 [8228][-none-][FATAL] Could not connect to server iic83 as sa.
+08/14/14 14:19:04 [9296][-none-][FATAL] SECURITY: User authentication for admin failed
+08/14/14 14:19:04 [9296][-none-][FATAL] FAILED LOGIN:attempts[1] - admin
+08/18/14 09:53:58 [6196][-none-][FATAL] Could not connect to server iicdb as sa.

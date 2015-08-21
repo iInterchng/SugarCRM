@@ -1,0 +1,228 @@
+
+2014-08-14 04:56:26...installerHook: Could not find custom/install/install_hooks.php
+2014-08-14 04:56:36...installerHook: Could not find custom/install/install_hooks.php
+2014-08-14 04:56:52...installerHook: Could not find custom/install/install_hooks.php
+2014-08-14 04:56:58...Begin System Check Process *************
+2014-08-14 04:56:58...XML Parsing Support Found
+2014-08-14 04:56:58...MBString Support Found
+2014-08-14 04:56:58...ZIP Support Found
+2014-08-14 04:56:58.../custom directory and subdirectory check passed
+2014-08-14 04:56:58...cache directory and subdirectory check passed
+2014-08-14 04:56:59.../module  directory and subdirectory check passed
+2014-08-14 04:56:59.../upload directory check passed
+2014-08-14 04:56:59.../zip check passed
+2014-08-14 04:56:59...PCRE version check passed
+2014-08-14 04:56:59...installerHook: Could not find custom/install/install_hooks.php
+2014-08-14 04:56:59...php.ini location found. C:\Program Files (x86)\PHP\v5.3\php.ini
+2014-08-14 04:56:59...Outputting HTML for System check
+2014-08-14 04:56:59...No Errors were found *************
+2014-08-14 04:57:02...installerHook: Could not find custom/install/install_hooks.php
+2014-08-14 04:57:32...installerHook: Could not find custom/install/install_hooks.php
+2014-08-14 04:57:40...installerHook: Could not find custom/install/install_hooks.php
+2014-08-14 04:58:39...Begin DB Check Process *************
+2014-08-14 04:58:39...testing with mssql:sqlsrv
+2014-08-14 04:58:39...Basic form info is valid, continuing Process.
+2014-08-14 04:58:39...ERROR:: Provide a database administrator user name.  The user is required for the initial connection to the database.
+2014-08-14 04:58:39...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2014-08-14 04:58:39..... Provide a database administrator user name.  The user is required for the initial connection to the database.
+2014-08-14 04:58:39...End DB Check Process *************
+2014-08-14 04:58:54...Begin DB Check Process *************
+2014-08-14 04:58:54...testing with mssql:sqlsrv
+2014-08-14 04:58:54...Basic form info is valid, continuing Process.
+2014-08-14 04:58:54...Testing user account...
+2014-08-14 04:58:55...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password
+2014-08-14 04:58:55...Testing priviliged account...
+2014-08-14 04:58:55...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password
+2014-08-14 04:58:55...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2014-08-14 04:58:55..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password
+2014-08-14 04:58:55...End DB Check Process *************
+2014-08-14 04:59:21...Begin DB Check Process *************
+2014-08-14 04:59:21...testing with mssql:sqlsrv
+2014-08-14 04:59:21...Basic form info is valid, continuing Process.
+2014-08-14 04:59:21...Testing user account...
+2014-08-14 04:59:21...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password
+2014-08-14 04:59:21...Testing priviliged account...
+2014-08-14 04:59:21...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password
+2014-08-14 04:59:21...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2014-08-14 04:59:21..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password
+2014-08-14 04:59:21...End DB Check Process *************
+2014-08-14 04:59:49...Begin DB Check Process *************
+2014-08-14 04:59:49...testing with mssql:sqlsrv
+2014-08-14 04:59:49...Basic form info is valid, continuing Process.
+2014-08-14 04:59:49...Testing user account...
+2014-08-14 04:59:49...Connection made using  host: iic83, usr: sa
+2014-08-14 04:59:49...Testing priviliged account...
+2014-08-14 04:59:49...Connection made using  host: iic83, usr: sa
+2014-08-14 04:59:49...DB not selected, will create sugarcrm
+2014-08-14 04:59:49...Passed DB install check
+2014-08-14 04:59:49...SUCCESS:: no errors detected!
+2014-08-14 04:59:49...End DB Check Process *************
+2014-08-14 04:59:49...installerHook: Could not find custom/install/install_hooks.php
+2014-08-14 05:00:04...installerHook: Could not find custom/install/install_hooks.php
+2014-08-14 05:00:28...installerHook: Could not find custom/install/install_hooks.php
+2014-08-14 05:00:58...installerHook: Could not find custom/install/install_hooks.php
+2014-08-14 05:00:58...calling handleSugarConfig()
+2014-08-14 05:00:58...calling handleLog4Php()
+2014-08-14 05:00:58...calling handleWebConfig()
+2014-08-14 05:00:58...calling handleDbCreateDatabase()
+2014-08-14 05:00:59...looping through all the Beans and create their tables
+2014-08-14 05:00:59...processing table acl_actions
+2014-08-14 05:00:59...creating table acl_actions
+2014-08-14 05:00:59...creating Relationship Meta for ACLAction
+2014-08-14 05:00:59...processing table acl_roles
+2014-08-14 05:00:59...creating table acl_roles
+2014-08-14 05:00:59...creating Relationship Meta for ACLRole
+2014-08-14 05:00:59...processing table relationships
+2014-08-14 05:00:59...creating table relationships
+2014-08-14 05:00:59...creating Relationship Meta for Relationship
+2014-08-14 05:00:59...processing table leads
+2014-08-14 05:00:59...creating table leads
+2014-08-14 05:00:59...creating Relationship Meta for Lead
+2014-08-14 05:00:59...processing table cases
+2014-08-14 05:01:00...creating table cases
+2014-08-14 05:01:00...creating Relationship Meta for Case
+2014-08-14 05:01:00...processing table bugs
+2014-08-14 05:01:00...creating table bugs
+2014-08-14 05:01:00...creating Relationship Meta for Bug
+2014-08-14 05:01:00...processing table users
+2014-08-14 05:01:00...creating table users
+2014-08-14 05:01:00...creating Relationship Meta for User
+2014-08-14 05:01:00...processing table campaign_log
+2014-08-14 05:01:01...creating table campaign_log
+2014-08-14 05:01:01...creating Relationship Meta for CampaignLog
+2014-08-14 05:01:01...processing table project
+2014-08-14 05:01:01...creating table project
+2014-08-14 05:01:01...creating Relationship Meta for Project
+2014-08-14 05:01:01...processing table project_task
+2014-08-14 05:01:01...creating table project_task
+2014-08-14 05:01:01...creating Relationship Meta for ProjectTask
+2014-08-14 05:01:01...processing table campaigns
+2014-08-14 05:01:01...creating table campaigns
+2014-08-14 05:01:01...creating Relationship Meta for Campaign
+2014-08-14 05:01:02...processing table prospect_lists
+2014-08-14 05:01:02...creating table prospect_lists
+2014-08-14 05:01:02...creating Relationship Meta for ProspectList
+2014-08-14 05:01:02...processing table prospects
+2014-08-14 05:01:02...creating table prospects
+2014-08-14 05:01:02...creating Relationship Meta for Prospect
+2014-08-14 05:01:02...processing table email_marketing
+2014-08-14 05:01:02...creating table email_marketing
+2014-08-14 05:01:02...creating Relationship Meta for EmailMarketing
+2014-08-14 05:01:02...processing table campaign_trkrs
+2014-08-14 05:01:02...creating table campaign_trkrs
+2014-08-14 05:01:02...creating Relationship Meta for CampaignTracker
+2014-08-14 05:01:02...processing table releases
+2014-08-14 05:01:02...creating table releases
+2014-08-14 05:01:02...creating Relationship Meta for Release
+2014-08-14 05:01:02...processing table emailman
+2014-08-14 05:01:03...creating table emailman
+2014-08-14 05:01:03...creating Relationship Meta for EmailMan
+2014-08-14 05:01:03...processing table schedulers
+2014-08-14 05:01:03...creating table schedulers
+2014-08-14 05:01:03...creating Relationship Meta for Scheduler
+2014-08-14 05:01:03...processing table job_queue
+2014-08-14 05:01:03...creating table job_queue
+2014-08-14 05:01:03...creating Relationship Meta for SchedulersJob
+2014-08-14 05:01:03...processing table contacts
+2014-08-14 05:01:03...creating table contacts
+2014-08-14 05:01:03...creating Relationship Meta for Contact
+2014-08-14 05:01:03...processing table accounts
+2014-08-14 05:01:03...creating table accounts
+2014-08-14 05:01:03...creating Relationship Meta for Account
+2014-08-14 05:01:04...processing table opportunities
+2014-08-14 05:01:04...creating table opportunities
+2014-08-14 05:01:04...creating Relationship Meta for Opportunity
+2014-08-14 05:01:04...processing table email_templates
+2014-08-14 05:01:04...creating table email_templates
+2014-08-14 05:01:04...creating Relationship Meta for EmailTemplate
+2014-08-14 05:01:04...processing table notes
+2014-08-14 05:01:04...creating table notes
+2014-08-14 05:01:04...creating Relationship Meta for Note
+2014-08-14 05:01:04...processing table calls
+2014-08-14 05:01:05...creating table calls
+2014-08-14 05:01:05...creating Relationship Meta for Call
+2014-08-14 05:01:05...processing table emails
+2014-08-14 05:01:05...creating table emails
+2014-08-14 05:01:05...creating Relationship Meta for Email
+2014-08-14 05:01:05...processing table meetings
+2014-08-14 05:01:05...creating table meetings
+2014-08-14 05:01:05...creating Relationship Meta for Meeting
+2014-08-14 05:01:05...processing table tasks
+2014-08-14 05:01:05...creating table tasks
+2014-08-14 05:01:05...creating Relationship Meta for Task
+2014-08-14 05:01:05...processing table users
+2014-08-14 05:01:05...processing table users
+2014-08-14 05:01:06...processing table currencies
+2014-08-14 05:01:06...creating table currencies
+2014-08-14 05:01:06...creating Relationship Meta for Currency
+2014-08-14 05:01:06...processing table tracker
+2014-08-14 05:01:06...creating table tracker
+2014-08-14 05:01:06...creating Relationship Meta for Tracker
+2014-08-14 05:01:06...processing table import_maps
+2014-08-14 05:01:06...creating table import_maps
+2014-08-14 05:01:06...creating Relationship Meta for ImportMap
+2014-08-14 05:01:06...processing table users_last_import
+2014-08-14 05:01:06...creating table users_last_import
+2014-08-14 05:01:06...creating Relationship Meta for UsersLastImport
+2014-08-14 05:01:06...processing table config
+2014-08-14 05:01:06...creating table config
+2014-08-14 05:01:06...creating Relationship Meta for Administration
+2014-08-14 05:01:06...processing table upgrade_history
+2014-08-14 05:01:06...creating table upgrade_history
+2014-08-14 05:01:06...creating Relationship Meta for UpgradeHistory
+2014-08-14 05:01:06...processing table vcals
+2014-08-14 05:01:06...creating table vcals
+2014-08-14 05:01:06...creating Relationship Meta for vCal
+2014-08-14 05:01:06...processing table versions
+2014-08-14 05:01:06...creating table versions
+2014-08-14 05:01:06...creating Relationship Meta for Version
+2014-08-14 05:01:06...processing table roles
+2014-08-14 05:01:06...creating table roles
+2014-08-14 05:01:06...creating Relationship Meta for Role
+2014-08-14 05:01:06...processing table documents
+2014-08-14 05:01:06...creating table documents
+2014-08-14 05:01:06...creating Relationship Meta for Document
+2014-08-14 05:01:06...processing table document_revisions
+2014-08-14 05:01:06...creating table document_revisions
+2014-08-14 05:01:06...creating Relationship Meta for DocumentRevision
+2014-08-14 05:01:06...processing table fields_meta_data
+2014-08-14 05:01:06...creating table fields_meta_data
+2014-08-14 05:01:06...creating Relationship Meta for FieldsMetaData
+2014-08-14 05:01:06...processing table inbound_email
+2014-08-14 05:01:06...creating table inbound_email
+2014-08-14 05:01:06...creating Relationship Meta for InboundEmail
+2014-08-14 05:01:06...processing table saved_search
+2014-08-14 05:01:06...creating table saved_search
+2014-08-14 05:01:06...creating Relationship Meta for SavedSearch
+2014-08-14 05:01:07...processing table user_preferences
+2014-08-14 05:01:07...creating table user_preferences
+2014-08-14 05:01:07...creating Relationship Meta for UserPreference
+2014-08-14 05:01:07...processing table 
+2014-08-14 05:01:07...processing table email_addresses
+2014-08-14 05:01:07...creating table email_addresses
+2014-08-14 05:01:07...creating Relationship Meta for EmailAddress
+2014-08-14 05:01:07...processing table emails_text
+2014-08-14 05:01:07...creating table emails_text
+2014-08-14 05:01:07...creating Relationship Meta for EmailText
+2014-08-14 05:01:07...processing table sugarfeed
+2014-08-14 05:01:07...creating table sugarfeed
+2014-08-14 05:01:07...creating Relationship Meta for SugarFeed
+2014-08-14 05:01:07...processing table eapm
+2014-08-14 05:01:07...creating table eapm
+2014-08-14 05:01:07...creating Relationship Meta for EAPM
+2014-08-14 05:01:07...processing table oauth_consumer
+2014-08-14 05:01:07...creating table oauth_consumer
+2014-08-14 05:01:07...creating Relationship Meta for OAuthKey
+2014-08-14 05:01:07...processing table oauth_tokens
+2014-08-14 05:01:07...creating table oauth_tokens
+2014-08-14 05:01:07...creating Relationship Meta for OAuthToken
+2014-08-14 05:01:09...Begin creating Defaults
+2014-08-14 05:01:09...insert defaults into config table
+2014-08-14 05:01:09...Creating default users
+2014-08-14 05:01:09...Creating default scheduler jobs
+2014-08-14 05:01:09...Enable SugarFeeds
+2014-08-14 05:01:09...Enable InsideView Connector
+2014-08-14 05:01:09...Creating FTS logic hook
+2014-08-14 05:01:09...populating the db with seed data
+2014-08-14 05:02:28...Installation has completed *********
+2014-08-14 05:04:01...installerHook: Could not find custom/install/install_hooks.php
